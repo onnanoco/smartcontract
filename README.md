@@ -1,2 +1,4 @@
-# smartcontract
-MOE smart contract
+# MOEスマートコントラクト 
+
+- truffleを使用します。
+- proxyを使用してアップグレードすることができます。 
