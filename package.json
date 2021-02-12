@@ -1,0 +1,26 @@
+{
+  "name": "onnanoco",
+  "version": "1.0.0",
+  "description": "- truffleを使用します。 - proxyを使用してアップグレードすることができます。",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onnanoco/smartcontract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onnanoco/smartcontract/issues"
+  },
+  "homepage": "https://github.com/onnanoco/smartcontract#readme",
+  "devDependencies": {
+    "@openzeppelin/contracts-upgradeable": "^3.4.0",
+    "@openzeppelin/truffle-upgrades": "^1.5.0"
+  }
+}
