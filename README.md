@@ -5,6 +5,6 @@
 
 ## Truffle console
 
-```
+```console
 $ npx truffle develop
 ```
