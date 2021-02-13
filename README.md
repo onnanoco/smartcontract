@@ -3,26 +3,15 @@
 - truffleを使用します。
 - proxyを使用してアップグレードすることができます。
 
-## Truffle console
+## Testing
 
 ```console
 npx truffle develop
-Truffle Develop started at http://x.x.x.x:x/
-...
-
-Accounts:
-(0) x
-...
-
-Private Keys:
-(0) x
-...
-
-Mnemonix: x x ...
-
-⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
-Ensure you do not use it on production blockchains, or else you risk losing funds.
-
-truffle(develop)>migrate
-
+truffle(develop)> migrate
+truffle(develop)> token = await MoeToken.deployed()
+truffle(develop)> token.address()
+truffle(develop)> token.name()
+truffle(develop)> token.symbol()
+truffle(develop)> (await token.totalSupply()).toString()
+truffle(develop)> (await token.balanceOf(accounts[0])).toString()
 ```
