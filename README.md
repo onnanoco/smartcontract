@@ -6,5 +6,5 @@
 ## Truffle console
 
 ```console
-$ npx truffle develop
+npx truffle develop
 ```
