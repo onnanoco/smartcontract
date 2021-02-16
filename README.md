@@ -15,3 +15,12 @@ truffle(develop)> token.symbol()
 truffle(develop)> (await token.totalSupply()).toString()
 truffle(develop)> (await token.balanceOf(accounts[0])).toString()
 ```
+
+## Deploying (Robsten Testnet)
+
+.secretファイルを追加してmnemonicを入力します。
+truffle-config.jsファイルにINFURA Robsten endpointを追加します。
+
+```console
+truffle deploy --network ropsten
+```
